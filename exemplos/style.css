@@ -1,0 +1,76 @@
+
+.newcolor {
+  color: orange;
+  line-height: 40px;
+  text-shadow: 2px 2px 5px gray;
+}
+
+.container > p {
+  background-color: black;
+}
+
+h3 + p {
+  color: red
+}
+
+h3 + p::first-line{
+  font-weight: bold;
+}
+
+code, h2 {
+  background-color: blueviolet;
+}
+
+a:hover {
+  color: brown
+}
+
+a:link {
+  color: aquamarine
+}
+
+a:active{
+  color: pink
+}
+
+.boxmodel{
+  border: 1px dotted black;
+  margin: 5px 10px 5px 10px;
+  padding: 5px;
+}
+
+.newspan {
+  display: inline-block;
+}
+
+.divmodel{
+  margin: 10px;
+  width: 200px;
+  min-width: 200px;
+  height: 250px;
+  padding: 10px;
+  border: 2px solid blue;
+  background-color: violet;
+  box-sizing: content-box;
+  color: black
+}
+
+.borderbox {
+  box-sizing: border-box;
+  text-align: right;
+}
+
+.flexdiv {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.griddiv {
+  display: grid;
+  margin-top: 20px;
+  grid-template-columns: 200px 200px 200px;
+  column-gap: 30px;
+}
